@@ -1,0 +1,604 @@
+@media (max-width: 1024px){
+
+	.header{
+		border-bottom: 1px solid #ccc;
+	}
+
+	.container{
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.header .nav {
+		clear: both;
+		display: block;
+		height: 50px;
+		line-height: normal;
+	}
+
+	.header .logo{
+		display: none;
+	}
+
+	.nav #nav-mobile:checked ~ .menu{
+		display: block;
+		width: 40%;
+
+		position: absolute;
+		top: 51px;
+		right: 0px;
+
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+	}
+
+	.nav .nav-mobile,
+	.nav .logomob{
+		display: inline-block;
+		width: 50%;
+		height: 50px;
+		margin-bottom: -10px;
+	}
+
+	.nav .nav-mobile label{
+		height: 17px;
+		width: 26px;
+
+		position: absolute;
+		right: 4%;
+		top: 15px;
+
+		background-image: url('../img/menu.png');
+		background-repeat: no-repeat;
+	}
+
+	.nav.nav-mobile img{
+		width: 30px;
+		height: 20px;
+		padding-top: 7px;
+	}
+
+	.nav .logomob a{
+		display: block;
+		width: 40%;
+
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.nav .logomob .gisma{
+		font-size: 11px;
+		line-height: 22px;
+
+		background-color: #000;
+		color: #fff;
+	}
+
+	.nav .logomob .school{
+		height: 24px;
+		padding-top: 4px;
+
+		font-size: 9px;
+		line-height: 10px;
+
+		background-color: #693;
+		color: #000;
+	}
+
+	.nav .logomob img{
+		padding-left: 20px;
+	}
+
+	.nav .menu{
+		display: none;
+		background-color: #fff;
+	}
+
+	.nav .menu li{
+		display: block;
+		width: 100%;
+		padding-top: 15px;
+		padding-bottom: 10px;
+
+		text-align: center;
+
+		background-color: #693;
+	}
+
+	.nav .menu li a{
+		display: inline-block;
+		padding-right: 10px;
+
+		text-align: center;
+		font-weight: bold;
+		
+		color: #fff;
+
+		border: none;
+	}
+
+	.header .nav .menu a:hover {
+		border-bottom: none;
+	}
+
+	.main .promo{
+		height: auto;
+	}
+
+	.main .promo .shadow{
+		background-color: rgba(255,255,255,0.8);
+		height: auto;
+	}
+
+	.main .promo .container{
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 50px;
+	}
+
+	.main .promo h1{
+		padding-top: 60px;
+	}
+
+	.main .promo .countries{
+		padding-bottom: 30px;
+	}
+
+	.main .promo .countries li{
+		display: inline-block;
+
+		height: 18px;
+		width: 32px;
+		margin-right: 2px;
+		
+		background-size: 32px 18px;
+	}
+
+	.main .torquent h2{
+		padding-top: 40px;
+		margin-bottom: 50px;
+	}
+
+	.main .torquent .first,
+	.main .torquent .second,
+	.main .torquent .third{
+		width: 31%;
+		margin-left: -5px;
+
+		vertical-align: top;
+	}
+
+	.main .torquent .first,
+	.main .torquent .second{
+		margin-right: 1%;
+	}
+
+	.main .torquent p{
+		margin-bottom: 30px;
+	}
+
+	.main .torquent button{
+		border: none;
+		margin-bottom: 35px;
+		width: 50%;
+	}
+
+	.main .morbi{
+		padding-bottom: 30px;
+	}
+
+	.main .morbi .left,
+	.main .morbi .right{
+		width: 100%;
+	}
+
+	.main .morbi h2{
+		padding-top: 40px !important;
+		margin-bottom: 20px;
+	}
+
+	.main .morbi p{
+		padding-bottom: 35px;
+	}
+
+	.main .morbi .right{
+		display: block;
+
+		width: 100%;
+		margin-top: -20px;
+
+		float: none;
+	}
+
+	.main .morbi .left .container,
+	.main .morbi .right .container{
+		width: 92%;
+		margin-left: 4%;
+	}
+
+	.main .morbi .left h2,
+	.main .morbi .left h3,
+	.main .morbi .left p{
+		box-sizing: border-box;
+		padding-right: 0px;
+	}
+
+	.main .morbi .left p{
+		padding-bottom: 35px;
+	}
+
+	.main .morbi .logo,
+	.main .morbi .month,
+	.main .morbi .price,
+	.main .morbi .duration{
+		padding-left: 0px;
+	}
+
+	.main .morbi .logo{
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	.main .morbi .logo .img{
+		width: 40px;
+		height: 40px;
+
+		background-color: #000;
+		vertical-align: 10px;
+	}
+
+	.main .morbi .duration{
+		padding-bottom: 30px;
+	}
+
+	.main .morbi .key,
+	.main .morbi .value{
+		width: 20%;
+	}
+
+	.main .morbi .tightcontainer{
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+
+	.main .morbi .lower h3,
+	.main .morbi .lower h4{
+		font-size: 16px;
+	}
+
+	.main .morbi .lower h5{
+		font-size: 14px;
+	}
+
+	.main .morbi .description .text{
+		font-size: 14px;
+	}
+
+	.main .morbi .toparrow,
+	.main .morbi .bottomarrow{
+		width: 20px;
+		height: 11px;
+
+		background-size: 20px 11px;
+	}
+
+	.main .morbi .lower .wrapping{
+		width: calc(100% - 25px);
+	}
+
+	.main .morbi .arrowwrap{
+		top: 0px;
+	}
+
+	.main .morbi .list{
+		margin-bottom: 35px;
+	}
+
+	.main .form{
+		background-image: none;
+	}
+
+	.main .application_form{
+		padding-bottom: 35px;
+	}
+
+	.main .form .container{
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.main .form h2{
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	.main .form input[type=text],
+	.main .form select{
+		width: calc(50% - 30px);
+	}
+	.main .video > .container{
+		width: 100%;
+
+	}
+	.main .video .description .container{
+		width: 92%;
+	}
+	.main .video .movie .container{
+		width: 100%;
+		margin-bottom: -5px;
+	}
+	.main .video .description,
+	.main .video .movie{
+		display: block;
+	}
+	.main .video .description{
+		width: 100%;
+	}
+	.main .video .description h2{
+		padding-top: 40px;
+		margin-bottom: 20px;
+	}
+	.main .video .description p{
+		width: 90%;
+	}
+	.main .video .description .watch{
+		padding-bottom: 40px;
+	}
+	.main .video .movie{
+		width: 100%;
+		margin-left: 0px;
+		bottom: 0;
+	}
+
+	.main .aboutus .arrowleft{
+		left: 4%;
+	}
+	.main .aboutus .arrowright{
+		right: 4%;
+	}
+
+	.footer{
+		height: 60px;
+	}
+
+	.footer .text{
+		line-height: 60px;
+	}
+	.main .aboutus h2{
+		padding-top: 35px;
+		margin-bottom: 20px;
+	}
+	.main .aboutus p{
+		margin-bottom: 50px;
+	}
+	.main .aboutus .we{
+		padding-bottom: 35px;
+	}
+	.main .aboutus .circle{
+		width: 185px;
+		height: 185px;
+		background-size: 185px 185px;
+	}
+	.main .aboutus .we p{
+		margin-bottom: 0px;
+	}
+
+
+}
+
+@media (max-width: 768px){
+
+	h2{
+		font-size: 32px;
+		line-height: 36px;
+	}
+
+	.main .promo p{
+		margin-right: 0px;
+	}
+
+	.main .promo button{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.main .promo button a{
+		display: block;
+	}
+
+	.main .promo .container{
+		padding-bottom: 30px;
+	}
+
+	.main .torquent h2{
+		margin-bottom: 10px;
+	}
+
+	.main .advantages{
+		padding-top: 0px;
+		width: calc(100% - 50px);
+	}
+
+	.main .torquent .arrow{
+		display: inline-block;
+		position: relative;
+
+		vertical-align: 150px;
+
+		background-size: 14px 25px;
+		background-repeat: no-repeat;
+	}
+
+	.main .torquent .arrowleft{
+		background-image: url('../img/leftarrow.png');
+	}
+	.main .torquent .arrowright{
+		background-image: url('../img/rightarrow.png');
+	}
+
+	.main .torquent .first,
+	.main .torquent .second,
+	.main .torquent .third{
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.main .torquent .first,
+	.main .torquent .second{
+		margin-right: auto;
+	}
+
+	.main .torquent .third,
+	.main .torquent .second{
+		display: none;
+	}
+
+	.main .torquent h2{
+		display: none;
+	}
+
+	.main .advantages h2{
+		display: block;
+		margin-bottom: 50px;
+	}
+	
+	.main .torquent h4{
+		color: #000;
+		margin-bottom: 10px;
+	}
+
+	.main .torquent p{
+		margin-bottom: 30px;
+	}
+
+	.main .torquent button{
+		margin-bottom: 40px;
+		width: 100%;
+	}
+
+	.main .morbi .container{
+		width: 100%;
+	}
+
+	.main .morbi h2,
+	.main .morbi h3,
+	.main .morbi p{
+		padding-right: 0px;
+	}
+
+	.main .morbi .key,
+	.main .morbi .value{
+		display: inline-block;
+		width: 40%;
+	}
+
+	.main .form p{
+		height: 0px;
+	}
+
+	.main .form h2{
+		padding-bottom: 0px;
+	}
+
+	.main .form input[type=text],
+	.main .form select,
+	.main .form textarea{
+		height: 40px;
+		margin-right: 0px;
+		margin-top: 20px;
+
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.main .form input[type=text],
+	.main .form select{
+		width: 100%;
+	}
+	.main .form select{
+		background-position: 98% center;
+	}
+
+	.main .form textarea{
+		width: 100%;
+		padding-top: 8px;
+		margin-bottom: 30px;
+	}
+
+	.main .form .label {
+		margin-bottom: 20px;
+		width: calc(100% - 45px);
+	}
+
+	.main .form  input[type=submit]{
+		width: 100%;
+	}
+	.main .video .movie iframe{
+		height: 300px;
+	}
+
+	.main .video .description p{
+		width: 100%;
+	}
+	.main .aboutus .arrow{
+		height: 25px;
+		width: 14px;
+
+		top: 310px;
+		background-size: 14px 25px;
+	}
+	.main .aboutus .arrowleft{
+		left: 4%;
+	}
+	.main .aboutus .arrowright{
+		right: 4%;
+	}
+
+	.main .aboutus p{
+		font-size: 16px;
+	}
+
+	.main .aboutus .first,
+	.main .aboutus .second,
+	.main .aboutus .third{
+		display: block;
+		width: 100%;
+		margin-left: 0px;
+	}
+	.main .aboutus .second,
+	.main .aboutus .first{
+		display: none;
+	}
+	.main .aboutus .we p{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media (max-width: 550px){
+	.nav #nav-mobile:checked ~ .menu{
+		width: 100%;
+	}
+	.main .video .movie iframe{
+		height: 250px;
+	}
+}
+
+@media (max-width: 420px){
+	.main .video .movie iframe{
+			height: 200px;
+		}
+}
